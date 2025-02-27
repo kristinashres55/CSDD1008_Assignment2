@@ -86,7 +86,7 @@ ASSIGNMENT2/
 - **brain.js** (lightweight neural network library)
 
 ### 🔹 Build Tool
-- **Vite** (optimized development and production builds)
+- **Netlify** (optimized development and production builds)
 
 ## 📩 Contact
 For questions or feedback, feel free to reach out:
