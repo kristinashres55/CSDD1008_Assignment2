@@ -1,104 +1,105 @@
-For this Go Project, we need to run main.go file where the program prints a greeting message that includes the student's name "Kristina Shrestha" and student ID "500223379".
-For running the program 
-1. Clone the repository from (https://github.com/kristinashres55/CSDD1008_Assignment2)
-
 # Property Price Prediction App
 
-## Project Overview
+## 📌 Project Overview
+The **Property Price Prediction App** leverages a neural network model (powered by `brain.js`) to predict property prices based on key features such as area, number of bedrooms and bathrooms, location, and age. It includes interactive data visualizations for comparing predicted and actual prices and analyzing feature importance.
 
-This is a **Property Price Prediction App** that uses a neural network model (built with `brain.js`) to predict property prices based on features like area, bedrooms, bathrooms, location, and age. The app also includes data visualization to compare predicted prices with actual prices and displays feature importance.
+## ✨ Key Features
 
-### Key Features
+### 🏡 Price Prediction
+- Predict property prices using a trained neural network model.
+- Input property details and receive an estimated price instantly.
 
-- **Price Prediction**: Predict property prices using a trained neural network model.
-- **Data Visualization**:
-  - Compare predicted prices vs. actual prices using a line chart.
-  - Display feature importance using a bar chart.
-- **Model Management**:
-  - Save the trained model to LocalStorage.
-  - Load the model from LocalStorage.
-  - Retrain the model if needed.
+### 📊 Data Visualization
+- **Line Chart**: Compare predicted vs. actual prices.
+- **Bar Chart**: Analyze feature importance.
 
----
+### 🛠️ Model Management
+- **Save & Load**: Store the trained model in LocalStorage.
+- **Retrain Model**: Easily retrain the model if needed.
 
-## How to Run Locally
+## 🚀 How to Run Locally
 
 ### Prerequisites
+- **Node.js** (v16 or higher)
+- **npm** (v8 or higher)
 
-- Node.js (v16 or higher)
-- npm (v8 or higher)
-
-### Steps
-
+### Installation & Setup
 1. **Clone the Repository**:
-
    ```bash
    git clone https://github.com/kristinashres55/CSDD1008_Assignment2
-
+   cd CSDD1008_Assignment2
    ```
-
 2. **Install Dependencies**:
-
    ```bash
    npm install
-
    ```
-
-3. **Run the App:**:
+3. **Run the App**:
    ```bash
    npm start
    ```
-
-The app will start on http://localhost:3000.
+   The app will start on **http://localhost:3000**.
 
 4. **Train the Model**:
-
-- The app will automatically train the model when you first run it.
-- You can also retrain the model by clicking the "Retrain Model" button.
+   - The model is trained automatically on the first run.
+   - You can retrain the model anytime by clicking the **"Retrain Model"** button.
 
 5. **Make Predictions**:
+   - Enter property details (area, bedrooms, bathrooms, location, age).
+   - Click **"Predict Price"** to get an estimated price.
 
-- Enter property details (area, bedrooms, bathrooms, location, age) and click "Predict Price" to see the predicted price.
+## 📂 Folder Structure
+```
+ASSIGNMENT2/
+│── build/                  # Production build files
+│── node_modules/           # Dependencies (auto-generated)
+│── public/                 # Static assets (favicon, index.html, etc.)
+│── src/                    # Source code
+│   ├── assets/             # Images and other assets
+│   ├── components/         # Reusable React components
+│   ├── App.js              # Main application component
+│   ├── App.css             # Global styles
+│   ├── App.test.js         # Test file for App.js
+│   ├── createDataset.json  # Dataset creation file
+│   ├── dataset.json        # Sample dataset
+│   ├── index.css           # Additional styles
+│   ├── index.js            # Entry point of the app
+│   ├── logo.svg            # Application logo
+│   ├── reportWebVitals.js  # Performance measuring tool
+│   ├── setupTests.js       # Test setup file
+│── .gitignore              # Files to ignore in Git
+│── netlify.toml            # Netlify deployment configuration
+│── package-lock.json       # Lock file for dependencies
+│── package.json            # Project metadata and dependencies
+│── README.md               # Project documentation
+│── transformDataset.js     # Data transformation script
 
----
+```
 
-### Features & Technologies Used
+## 🛠️ Technologies Used
 
-**Price Prediction**:
-- Predict property prices using a neural network model.
+### 🔹 Frontend
+- **React.js** (component-based UI development)
+- **Chart.js** (data visualization)
+- **Tailwind CSS** (modern and responsive styling)
 
-**Data Visualization**:
-- Line Chart: Compare predicted prices vs. actual prices.
-- Bar Chart: Display feature importance.
+### 🔹 Machine Learning
+- **brain.js** (lightweight neural network library)
 
-**Model Management**:
-- Save and load the trained model to/from LocalStorage.
+### 🔹 Build Tool
+- **Vite** (optimized development and production builds)
 
-### Technologies Used
-- **Frontend**:
-    - React.js
-    - Chart.js (for data visualization)
-
-- **Machine Learning**:
-    - brain.js (neural network library)
-
-- **Styling**:
-    - Tailwind CSS (for responsive and modern UI)
-
-- **Build Tool**:
-    - Vite (for fast development and production builds)
-
----
-
-### Contact
+## 📩 Contact
 For questions or feedback, feel free to reach out:
 
-- Your Name: kristinashrestha2055@gmail.com
-
-- GitHub: kristinashres55
-
-1. **Price Prediction Form**: A screenshot of the form where users input property details.
-2. **Predicted vs. Actual Prices Chart**: A screenshot of the line chart comparing predicted and actual prices.
-3. **Feature Importance Chart**: A screenshot of the bar chart showing feature importance.
+- **Email**: kristinashrestha2055@gmail.com
+- **GitHub**: [kristinashres55](https://github.com/kristinashres55)
 
 ---
+### 📷 Screenshots
+1. **Price Prediction Form** – Users input property details.
+2. **Predicted vs. Actual Prices Chart** – Line chart comparing predictions with actual values.
+3. **Feature Importance Chart** – Bar chart highlighting key predictive factors.
+
+---
+This project is open-source and welcomes contributions! 🚀
+
