@@ -95,11 +95,10 @@ For questions or feedback, feel free to reach out:
 - **GitHub**: [kristinashres55](https://github.com/kristinashres55)
 
 ---
-### 📷 Screenshots
+### Conclusion
 1. **Price Prediction Form** – Users input property details.
 2. **Predicted vs. Actual Prices Chart** – Line chart comparing predictions with actual values.
 3. **Feature Importance Chart** – Bar chart highlighting key predictive factors.
 
 ---
-This project is open-source and welcomes contributions! 🚀
 
